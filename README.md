@@ -19,9 +19,25 @@ Step 4: Open config.webtvconfig (in the series/movie folder) and link the series
 Example:
 
 series/
+
       TheLastOfUs/
+      
            the.last.of.us.season.1.episode.1.mp4
+           
 config.webtvconfig
+
 movies/
+
      ForestGump/
+     
           forest.gump.mp4
+config.webtvconfig
+
+What should be in the config files:
+
+For a series:
+
+episodesinseason1: 9
+iconforseries: icon.png
+
+episode1season1:
