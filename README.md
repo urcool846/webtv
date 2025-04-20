@@ -39,8 +39,11 @@ What should be in the config files:
 
 For a series:
 
-     episodesinseason1: 9
+     episodesinseason1: 1
 
+     nameofseries: "The Last of Us"
      iconforseries: icon.png
-
-episode1season1:
+     agerating: 18
+     
+     episode1season1: TheLastOfUs/the.last.of.us.episode.1.season.1.mp4
+     :::::
