@@ -58,3 +58,16 @@ For a series (this example includes multiple series. As you can see, they are se
      iconforseries: theoffice.jpeg
      agerating: 12
      episode1season1: TheOffice/episode1season1.mp4
+
+
+For a movie (each movie's info is separated by 5 colons):
+
+     nameofmovie: "Forest Gump"
+     iconformovie: icon.png
+     agerating: 12
+     moviefile: ForestGump/forest.gump.mp4
+     :::::
+     nameofmovie: "Die Hard"
+     iconformovie: diehardicon.jpeg
+     agerating: 18
+     moviefile: DieHard1/diehard1.mp4
