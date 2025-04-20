@@ -24,7 +24,7 @@ Example:
       
                 the.last.of.us.season.1.episode.1.mp4
            
-     config.webtvconfig
+           config.webtvconfig
 
      movies/
 
@@ -32,7 +32,7 @@ Example:
      
                forest.gump.mp4
                
-     config.webtvconfig
+          config.webtvconfig
 
 What should be in the config files:
 
