@@ -71,3 +71,19 @@ For a movie (each movie's info is separated by 5 colons):
      iconformovie: diehardicon.jpeg
      agerating: 18
      moviefile: DieHard1/diehard1.mp4
+
+After all of that, we can move on to running the program.
+
+# How to Run
+
+Step 1: Navigate to the root directory of the program in command prompt.
+
+Step 2: Make sure all the requirements are installed and run:
+    
+     python -m server
+
+Step 3: Depending on what device you will be watching on, open your browser and type in:
+
+For watching on the pc running the program, open 127.0.0.1:5000 in your browser. This is the address for localhost.
+
+For watching on another device, you have to be connected to the same WiFi network, and you have to put in the local IP address of the PC into the browser. The local IP always starts with 192.168.
