@@ -39,8 +39,8 @@ What should be in the config files:
 
 For a series:
 
-episodesinseason1: 9
+     episodesinseason1: 9
 
-iconforseries: icon.png
+     iconforseries: icon.png
 
 episode1season1:
