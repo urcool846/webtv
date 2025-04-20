@@ -3,7 +3,7 @@ Watch any tv series (requires you to download the episodes) and host on your com
 
 # Requirements:
 
-(Python)[https://www.python.org/download]
+[Python](https://www.python.org)
 
 Flask
 
