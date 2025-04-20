@@ -7,6 +7,10 @@ Watch any tv series (requires you to download the episodes) and host on your com
 
 Flask
 
+Install flask by running this comman in command prompt:
+
+     pip install flask
+
 # Setup
 Step 1: Install the requireemts
 
