@@ -90,4 +90,8 @@ Step 3: Depending on what device you will be watching on, open your browser and 
 
 For watching on the pc running the program, open 127.0.0.1:5000 in your browser. This is the address for localhost.
 
-For watching on another device, you have to be connected to the same WiFi network, and you have to put in the local IP address of the PC into the browser. The local IP always starts with 192.168.
+For watching on another device, you have to be connected to the same WiFi network, and you have to put in the local IP address of the PC into the browser. You can find your local IP by running the following command in command prompt: 
+     
+     ipconfig
+     
+the local IP always starts with 192.168.
