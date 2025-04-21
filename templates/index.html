@@ -1,6 +1,85 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Media Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f7f7f7;
+            color: #333;
+        }
+        h1 {
+            color: #222;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        .item {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .video-icon {
+            margin-right: 8px;
+            color: #444;
+        }
+        video {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
 <body>
-  <h1>webtv</h1>
-  <h2>Download and watch any tv show, hosted on your very own computer!</h2>
-</body>  
+    <h1>Welcome to the Media Library</h1>
+
+    <div class="section">
+        <h2>Series</h2>
+        {% if series %}
+            {% for item in series %}
+                <div class="item">
+                    <div class="item-title">
+                        <i class="fas fa-tv video-icon"></i>{{ item.get('Title', 'Untitled') }}
+                    </div>
+                    <video controls>
+                        <source src="{{ url_for('watch', folder='series', filename=item.get('File', '')) }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No series available.</p>
+        {% endif %}
+    </div>
+
+    <div class="section">
+        <h2>Movies</h2>
+        {% if movies %}
+            {% for item in movies %}
+                <div class="item">
+                    <div class="item-title">
+                        <i class="fas fa-film video-icon"></i>{{ item.get('Title', 'Untitled') }}
+                    </div>
+                    <video controls>
+                        <source src="{{ url_for('watch', folder='movies', filename=item.get('File', '')) }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>No movies available.</p>
+        {% endif %}
+    </div>
+</body>
 </html>
