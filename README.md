@@ -1,5 +1,5 @@
 # webtv
-Watch any tv series (requires you to download the episodes) and host on your computer!
+Watch any tv show (requires you to download the episodes/movies) and host on your computer!
 
 # Requirements:
 
