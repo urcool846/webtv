@@ -27,10 +27,12 @@ Example:
            TheLastOfUs/
       
                 the.last.of.us.season.1.episode.1.mp4
+                icon.png
           
            TheOffice/
 
                 episode1season1.mp4
+                theoffice.jpeg
            
            config.webtvconfig
 
@@ -39,10 +41,12 @@ Example:
           ForestGump/
      
                 forest.gump.mp4
+                icon.png
                
           DieHard1/
           
                 diehard1.mp4
+                diehardicon.jpeg
                
           config.webtvconfig
 
