@@ -7,18 +7,18 @@ Watch any tv show (requires you to download the episodes/movies) and host on you
 
 Flask
 
-Install flask by running this comman in command prompt:
+Install flask by running this command in command prompt:
 
      pip install flask
 
 # Setup
-Step 1: Install the requireemts
+Step 1: Install the requirements
 
-Step 2: Depending on what you are adding, add your episodes/single movie(not multiple) to the folders. Either " series" or "movies". After that,  create a file called "config.webtvconfig", this will be where we set up the way it displays in the browser.
+Step 2: Depending on what you are adding, add your episodes/single movie(not multiple) to the folders. Either " series" or "movies". After that, create a file called "config.webtvconfig", this will be where we set up the way it displays in the browser.
 
-Step 3: Create a new folder for the series/movie, we will add this to the comfig file later.
+Step 3: Create a new folder for the series/movie, we will add this to the config file later.
 
-Step 4: Open config.webtvconfig (in the series/movie folder) and link the series/movie icon, episodes/movie and the name.
+Step 4: Open config.webtvconfig (in the series/movie folder) and link the  icon, episodes/movie, and the name.
 
 Example:
 
