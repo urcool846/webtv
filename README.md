@@ -14,7 +14,7 @@ Install flask by running this comman in command prompt:
 # Setup
 Step 1: Install the requireemts
 
-Step 2: Depending on what you are adding, add your episodes/single movie(not multiple) to the folders. Either " series" or "movies". After that,  create a file called "config.webtvconf", this will be where we set up the way it displays in the browser.
+Step 2: Depending on what you are adding, add your episodes/single movie(not multiple) to the folders. Either " series" or "movies". After that,  create a file called "config.webtvconfig", this will be where we set up the way it displays in the browser.
 
 Step 3: Create a new folder for the series/movie, we will add this to the comfig file later.
 
